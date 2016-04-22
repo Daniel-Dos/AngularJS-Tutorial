@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/studentController.js"></script>
+<meta charset="ISO-8859-1">
+<title>AngularJS Controller</title>
+</head>
+<body>
+
+<h2>Angular jS sample application</h2>
+
+	<div ng-app="studentApp" ng-controller="studentController">
+			Enter first name: <input type="text" ng-model="student.firstName"><br><br>
+			Enter last name: <input type="text" ng-model="student.lastName"><br>
+			<br>
+	You are entering: {{student.fullName()}}
+	</div>
+
+</body>
+</html>
