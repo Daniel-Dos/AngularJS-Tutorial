@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/table.css" />
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/studentController7.js"></script>
+<meta charset="ISO-8859-1">
+<title>AngularJS Ajax</title>
+</head>
+<body>
+
+<div ng-app="studentApp7" ng-controller="studentController7">
+
+ <table>
+   
+   <tr>
+   <th>Name</th>
+   <th>Roll No</th>
+   <th>Percentage</th>
+ </tr>
+ 
+ <tr ng-repeat="student in students">
+ <td>{{student.Name}}</td>
+ <td>{{student.RollNo}}</td>
+ <td>{{student.Percentage}}</td>
+ </tr>
+ </table>
+
+</div>
+</body>
+</html>
