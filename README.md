@@ -1,2 +1,2 @@
 # AngularJS-Tutorial
-Aprendendo AngularJS
+Aprendendo AngularJS + Angular Material
